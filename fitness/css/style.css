@@ -803,11 +803,16 @@ ul.social_trainers{
 	position: fixed;
 	left: 0;
 	right: 0;
-	padding: 10px 85px;
+	padding: 10px 0;
 	z-index: 1030;
 	background-color: #202020;
 	border-bottom: 1px solid white;
 	margin: 0;
+}
+.sticky .header_after{
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
 }
 .btn-up{
 	font-family: 'Open Sans', sans-serif;
