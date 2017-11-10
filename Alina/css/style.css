@@ -8,7 +8,7 @@ body {
 }
 header{
   background-color: #fcdee0;
-  height: 550px;
+  height: 600px;
 }
 .logo{
   font-family: 'Lobster', cursive;
@@ -58,7 +58,7 @@ header{
   font-weight: 800;
   color: transparent;
   font-size: 120px;
-  background: url("http://i052.radikal.ru/0911/b3/d078313743c8.jpg") repeat;
+  background: url("../img/fon1.jpg") repeat;
   background-position: 40% 50%;
   -webkit-background-clip: text;
   position: relative;
@@ -66,16 +66,17 @@ header{
   line-height: 90px;
   letter-spacing: -8px;
   margin-left: 80px;
-  margin-top: 20px;
+  margin-top: 95px;
 }
 .shpagat {
     text-align: right;
     margin-right: 50px;
 }
 .shpagat img{
-  margin-top: -190px;
-  width: 64%;
-  background: url("http://i052.radikal.ru/0911/b3/d078313743c8.jpg") repeat;
+  margin-top: -315px;
+  margin-right: 124px;
+  width: 55%;
+  background: url("../img/fon2.jpg") repeat;
   background-position: 40% 50%;
 }
 .subtitle {
