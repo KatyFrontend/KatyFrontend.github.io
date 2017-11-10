@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic,latin-ext');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #fcdee0;
+  height: 550px;
+}
+.logo{
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 100px;
+  color: #fff;
+  float: left;
+}
+.nav{
+  font-family: 'Lobster', cursive;
+  list-style-type: none; 
+  float: right;
+  margin-top: 60px;
+  margin-right:40px;
+}
+.nav>li{
+  display: inline-block;
+  padding-left: 50px;
+}
+.nav>li>a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+/*.menu{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}*/
+.clear{
+  clear: both;
+}
+.flex_container_header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("http://i052.radikal.ru/0911/b3/d078313743c8.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: left;
+  line-height: 90px;
+  letter-spacing: -8px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.shpagat {
+    text-align: right;
+    margin-right: 50px;
+}
+.shpagat img{
+  margin-top: -190px;
+  width: 64%;
+  background: url("http://i052.radikal.ru/0911/b3/d078313743c8.jpg") repeat;
+  background-position: 40% 50%;
+}
+.subtitle {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
