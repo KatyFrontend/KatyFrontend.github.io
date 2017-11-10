@@ -10,13 +10,14 @@ header{
   background-color: #fcdee0;
   height: 600px;
 }
-.logo{
+.logo {
   font-family: 'Lobster', cursive;
+  position:relative;
   font-weight: 700;
   font-size: 40px;
   margin-left: 100px;
-  color: #a41d26;
   float: left;
+  color: #a41d26;
 }
 .nav{
   font-family: 'Lobster', cursive;
@@ -35,6 +36,12 @@ header{
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.5px;
+}
+.nav>li>a:hover {
+  -webkit-transition: .5s linear;
+  -o-transition: .5s linear;
+  transition: .5s linear;
+  color: #fff;
 }
 /*.menu{
   font-family: 'Montserrat', sans-serif;
@@ -84,4 +91,7 @@ header{
   text-align: center;
   text-transform: uppercase;
   padding-top: 10px;
+}
+}
+
 }
