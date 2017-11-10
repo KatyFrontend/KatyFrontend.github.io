@@ -58,25 +58,25 @@ header{
   font-weight: 800;
   color: transparent;
   font-size: 120px;
-  background: url("../img/fon1.jpg") repeat;
+  background: url("https://otvet.imgsmail.ru/download/6788878_65c231a54205b1594ae21e8706c24645_800.jpg") repeat;
   background-position: 40% 50%;
   -webkit-background-clip: text;
   position: relative;
   text-align: left;
-  line-height: 90px;
+  line-height: 95px;
   letter-spacing: -8px;
-  margin-left: 80px;
-  margin-top: 95px;
+  margin-left: 100px;
+  margin-top: 60px;
 }
 .shpagat {
     text-align: right;
     margin-right: 50px;
 }
 .shpagat img{
-  margin-top: -315px;
-  margin-right: 124px;
-  width: 55%;
-  background: url("../img/fon2.jpg") repeat;
+  margin-top: -226px;
+  margin-right: 45px;
+  width: 70%;
+  background: url("https://otvet.imgsmail.ru/download/6788878_65c231a54205b1594ae21e8706c24645_800.jpg") repeat;
   background-position: 40% 50%;
 }
 .subtitle {
