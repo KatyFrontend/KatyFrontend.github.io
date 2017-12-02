@@ -499,7 +499,14 @@ h2{
 
 @media(max-width: 480px){
   .nav>li{
-    padding-left: 30px;
+    padding-left: 0;
+    margin: 0 3px;
+  }
+  .logo{
+    margin-top: -42px;
+  }
+  .akkaunt{
+    margin: 20px auto;
   }
   .name_akkaunt input, .password_akkaunt input{
     width: 50%;
