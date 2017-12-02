@@ -69,11 +69,39 @@ header{
   -ms-flex-pack: distribute;
   justify-content: space-around;
 }
+.akkaunt{
+    text-align: right;
+    margin-right: 40px;
+}
+.name_akkaunt, .password_akkaunt{
+  margin-bottom: 5px;
+}
+.name_akkaunt input, .password_akkaunt input {
+    width: 15%;
+    border: 1px solid #a41d26;;
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    -webkit-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    font-family: "Raleway", sans-serif;
+  }
+  .akkaunt input:focus{
+    border: 1px solid #c0301c;
+  }
+.akkaunt button{
+  font-family: "Raleway", sans-serif;
+  border: 1px solid #fff;
+  padding: 3px;
+  border-radius: 6px;
+  background-color: #a41d26;
+  color: #fff;
+}
 .banner_text{
   position: relative;
   text-align: left;
   margin-left: 100px;
-  margin-top: 60px;
 }
 .title {
   font-family: 'Raleway', sans-serif;
@@ -321,9 +349,11 @@ h2{
   .nav>li{
     padding-left: 25px;
   }
-  .container{
-    margin-right: 15px;
-    margin-left: 15px;
+  .block{
+    padding: 10px 20px;
+  }
+  header{
+    height: 540px;
   }
 }
 @media(max-width: 900px){
@@ -346,6 +376,22 @@ h2{
   .text_about_me{
     width: 57%;
   }
+  .programms{
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .programm_with, .programm_without{
+    width: 42%;
+  }
+}
+@media(max-width: 850px){
+  .name_akkaunt input, .password_akkaunt input {
+    width: 20%;
+  }
+  header{
+    height: 500px;
+  }
 }
 @media(max-width: 770px){
   .nav>li{
@@ -363,6 +409,13 @@ h2{
     float: none;
     margin-left: 0;
     text-align: center;
+    margin-top: -25px;
+  }
+  header{
+    height: 410px;
+  }
+  .name_akkaunt input, .password_akkaunt input{
+    width: 25%;
   }
   .nav{
     float: none;
@@ -377,6 +430,10 @@ h2{
   .title{
     font-size: 60px;
     letter-spacing: 0;
+    line-height: 60px;
+  }
+  .akkaunt{
+    margin-top: 10px;
   }
   .under_title{
     margin-top: -28px;
@@ -388,9 +445,12 @@ h2{
     display: block;
     margin-top: 20px;
   }
-  .container{
-    margin: 0;
+  .review_foto{
+    background-color: #a41d26;
   }
+  /*.container{
+    margin: 0;
+  }*/
   h2{
     margin-bottom: 20px;
     font-size: 34px;
@@ -426,22 +486,35 @@ h2{
     display: block;
     text-align: center;
   }
-
 }
+@media(max-width: 550px){
+  .akkaunt{
+    text-align: center;
+    margin: 10px auto;
+  }
+  .name_akkaunt input, .password_akkaunt input{
+    width: 30%;
+  }
+}
+
 @media(max-width: 480px){
   .nav>li{
     padding-left: 30px;
   }
+  .name_akkaunt input, .password_akkaunt input{
+    width: 50%;
+  }
 }
 @media(max-width: 425px){
   .title{
-    line-height: 55px;
-    font-size: 45px;
+    line-height: 40px;
+    font-size: 35px;
   }
+
   header{
     height: 400px;
   }
   .under_title{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
