@@ -23,10 +23,11 @@ header{
   font-family: 'Lobster', cursive;
   position:relative;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   margin-left: 100px;
   float: left;
   color: #a41d26;
+  margin-top: 8px;
 }
 .nav{
   font-family: 'Lobster', cursive;
@@ -130,7 +131,8 @@ h2{
   color: #a41d26;
 }
 .about_me_block{
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  background-color: #fff2ed;
 }
 .hell1{
   background-color: #dd6363;
@@ -195,10 +197,10 @@ h2{
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin-top: -25px;
+    margin-top: pro-25px;
 }
 .programms_block{
-  background-color: #fff2ed;
+  background-color: #87CEEB;
   padding-top: 10px;
   padding-bottom: 100px;
 }
@@ -218,6 +220,7 @@ h2{
     width: 46%;
     border: 2px solid #dd6363;
     border-radius: 10%;
+    margin-bottom: 40px;
 }
 .programm{
   color: #fff;
@@ -353,7 +356,12 @@ h2{
     padding: 10px 20px;
   }
   header{
-    height: 540px;
+    height: 505px;
+  }
+}
+@media(max-width: 950px){
+  .banner_text{
+    margin-left: 58px;
   }
 }
 @media(max-width: 900px){
@@ -384,13 +392,46 @@ h2{
   .programm_with, .programm_without{
     width: 42%;
   }
+  header{
+    height: 480px;
+  }
+}
+@media(max-width: 880px){
+  .nav>li{
+    padding-left: 15px;
+  }
+  .logo{
+    margin-left: 70px;
+  }
 }
 @media(max-width: 850px){
   .name_akkaunt input, .password_akkaunt input {
     width: 20%;
   }
+}
+@media(max-width: 840px){
   header{
-    height: 500px;
+    height: 450px;
+  }
+  .under_title{
+    margin-top:-30px;
+  }
+}
+@media(max-width: 794px){
+  .nav>li {
+    padding-left: 15px;
+  }
+  .logo{
+     margin-left: 50px;
+  }
+  .under_title{
+    font-size: 26px;
+  }
+  .title{
+    font-size: 85px;
+  }
+  header{
+    height: 428px;
   }
 }
 @media(max-width: 770px){
@@ -400,8 +441,48 @@ h2{
   .logo{
     margin-left: 60px;
   }
+  .under_title{
+    letter-spacing: 8px;
+  }
+}
+@media(max-width: 755px){
   header{
-    height: 500px;
+    height: 400px;
+  }
+  .title{
+    letter-spacing: 0px;
+    line-height: 62px;
+    font-size: 60px;
+  }
+  .logo{
+     font-size: 30px;
+  }
+}
+@media(max-width: 732px){
+  .logo {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .nav>li>a{
+    font-size: 14px;
+  } 
+}
+@media(max-width: 680px){
+  .logo{
+    margin-left: 40px;
+  }
+  .nav>li{
+    padding-left: 7px;
+  }
+  .akkaunt{
+    margin-top: -25px;
+  }
+  .nav{
+    margin-right: 30px;
+  }
+  header{
+    height: 368px;
   }
 }
 @media(max-width: 640px){
@@ -412,7 +493,7 @@ h2{
     margin-top: -25px;
   }
   header{
-    height: 410px;
+    height: 352px;
   }
   .name_akkaunt input, .password_akkaunt input{
     width: 25%;
@@ -437,9 +518,6 @@ h2{
   }
   .under_title{
     margin-top: -28px;
-  }
-  header{
-    height: 470px;
   }
   .about_me{
     display: block;
@@ -487,6 +565,18 @@ h2{
     text-align: center;
   }
 }
+@media(max-width: 600px){
+  .title{
+    font-size: 48px;
+    line-height: 40px;
+  }
+  header{
+    height: 328px;
+  }
+  .akkaunt{
+  margin-right: 20px;
+  }
+}
 @media(max-width: 550px){
   .akkaunt{
     text-align: center;
@@ -504,17 +594,37 @@ h2{
   .name_akkaunt input, .password_akkaunt input{
     width: 50%;
   }
-}
-@media(max-width: 425px){
-  .title{
-    line-height: 40px;
-    font-size: 35px;
+  .under_title{
+    font-size: 20px;
+    letter-spacing: 6px;
   }
 
+}
+@media(max-width: 425px){
+  .nav>li{
+    padding-left: 30px;
+  }
+.title{
+    line-height: 30px;
+    font-size: 35px;
+    margin-bottom:25px;
+  }
   header{
-    height: 400px;
+    height: 298px;
   }
   .under_title{
     font-size: 18px;
+  }
+}
+@media(max-width:360px){
+  .logo{
+    margin-top: -30px;
+    font-size: 26px;
+  }
+  .nav>li>a{
+    font-size: 16px;
+  }
+  .nav>li{
+    padding-left: 15px;
   }
 }
